@@ -93,12 +93,12 @@ class NFASL_Antispam_Light {
         <input type="hidden" name="<?php echo $this->options[0]['secret_keys']['sk_1_name'] ?>" value="<?php echo $data; ?>" />
         <input type="hidden" name="<?php echo $this->options[0]['secret_keys']['sk_2_hash'] ?>" value="<?php echo md5( $this->options[0]['secret_keys']['sk_3_data'] . $data); ?>" />
         <script type="text/javascript">
-            // var elems = document.getElementsByTagName('input');
-            // for (var i = elems.length-1; i > -1; i--){
-            //     if (elems[i].getAttribute('name') == '<?php echo $this->options[0]['secret_keys']['sk_1_name'] ?>') {
-            //         elems[i].setAttribute('name', '<?php echo $this->options[0]['secret_keys']['sk_4_data_repalce'] ?>');
-            //     }
-            // }
+            var elems = document.getElementsByTagName('input');
+            for (var i = elems.length-1; i > -1; i--){
+                if (elems[i].getAttribute('name') == '<?php echo $this->options[0]['secret_keys']['sk_1_name'] ?>') {
+                    elems[i].setAttribute('name', '<?php echo $this->options[0]['secret_keys']['sk_4_data_repalce'] ?>');
+                }
+            }
         </script>
         <?php
     }
