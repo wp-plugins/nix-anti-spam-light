@@ -20,7 +20,7 @@ Easy-to-use tool to get rid of spam attacking your website AntiSpamLight is deve
 - Doesn't load your server.
 - Easy to use.
 
-=It's important=
+**It's important**
 
 Uses Javascript
 
