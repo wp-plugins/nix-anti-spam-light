@@ -1,0 +1,27 @@
+.wrap.nix-antispam{
+    max-width: 900px;
+}
+
+.wrap.nix-antispam .nix-antispam-form{
+	float: left;
+	margin-right: 20px;
+}
+
+.wrap.nix-antispam .postbox-container {
+	float: right;
+	width: 300px;
+}
+
+.wrap.nix-antispam .postbox-container h3{
+	font-size: 15px;
+	font-weight: normal;
+	padding: 7px 10px;
+	margin: 0;
+	line-height: 1;
+}
+
+.disabled-input{
+	background:#E0E0E0;
+}
+
+
