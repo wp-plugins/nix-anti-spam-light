@@ -36,7 +36,7 @@ class NFASL_Antispam_Light {
 
         if ( $this->options[0]['active'] == 1 ) {
             add_action( 'comment_form', array( $this,'nfas_comment_form' ), 10, 1 );
-            add_filter( 'pre_comment_approved', 'nfas_pre_comment_approved' , '99', 2 );
+            add_filter( 'pre_comment_approved', array( $this, 'nfas_pre_comment_approved' ) , '99', 2 );
         }
 
         // add to admin menu
