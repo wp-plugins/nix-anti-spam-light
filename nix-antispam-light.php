@@ -4,7 +4,7 @@ Plugin Name: Nix Anti-Spam light
 Description: Anti-Spam protection for comments.
 Author: NIX Solutions Ltd
 Author URI: http://nixsolutions.com/departments/cms/
-Version: 0.0.3
+Version: 0.0.4
 */
 
 class NFASL_Antispam_Light {

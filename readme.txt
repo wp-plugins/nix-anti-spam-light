@@ -29,3 +29,9 @@ Uses Javascript
 1. Upload `nix-antispam-light` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Enjoy
+
+== Changelog ==
+
+= 0.0.4 =
+
+Some bugs were fixed
