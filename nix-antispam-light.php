@@ -45,7 +45,7 @@ class NFASL_Antispam_Light {
         // plugin settings
         register_activation_hook( __FILE__, array( $this, 'activate' )  );
 
-        if ( is_admin() )
+        if ( is_admin() && strrpos($_SERVER['REQUEST_URI'], basename( __FILE__) ) )
             $this->init();
 
 

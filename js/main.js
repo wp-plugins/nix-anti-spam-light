@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
-	var active = $('form input[type=checkbox]');
-	var input  = $('form input[type=text]');
+	var active = $('form.nix-antispam-form input[type=checkbox]');
+	var input  = $('form.nix-antispam-form input[type=text]');
 
 	if ( active.prop('checked') != true ) {
 		input.each(function() {
