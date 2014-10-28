@@ -48,9 +48,9 @@ class NFASL_Antispam_Light {
         if ( is_admin() && strrpos($_SERVER['REQUEST_URI'], basename( __FILE__) ) )
             $this->init();
 
-
-        register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
-        register_uninstall_hook( __FILE__ , array( $this, 'uninstall' ) );
+        // @todo : imprement or remove these rows
+        //register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
+        //register_uninstall_hook( __FILE__ , array( $this, 'uninstall' ) );
     }
 
     public function get_template_path() {
