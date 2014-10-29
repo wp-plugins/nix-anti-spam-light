@@ -1,5 +1,5 @@
 === NIX Anti-Spam Light ===
-Contributors: NIX Solutions Ltd
+Contributors: nixsolutions
 Tags: Anti-spam, spam, security, anti-spam bot, no captcha, comments, protect
 Requires at least: 3.0.1
 Tested up to: 3.5.1
